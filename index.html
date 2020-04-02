@@ -1,14 +1,107 @@
 <!doctype html>
-<html>
+<html lang="pt-br">
+<!--LINGUAGEM-DO-SITE-->
 
 <head>
-    <title> Curso de Git e Github</title>
+    <!--TITULO-DO-SITE-->
+    <title> Minha página</title>
+    <!--CARACTERES-DO-SITE-->
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--FRAMEWORK-BOOTSTRAP-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <!--ESTILO-DO-SITE-->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
 </head>
 
 <body>
-    <h2>Home</h2>
+    <!--MENU-GERAL-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <!--LOGOTIPO-->
+        <div class="container">
+            <a class="navbar-brand logo " href="# ">
+                <img src="img/logo.jpeg " class="rounded-circle" width="200 " height="100" />
+            </a>
+            <!--MENU-->
+            <div class="collapse navbar-collapse ">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#quemsomos ">Quem somos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#parceiros ">Parceiros</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#servicos ">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--CONTEUDO-QUEM-SOMOS-->
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3>Quem somos</h3>
+            <img src="img/app1.jpeg" class="rounded-circle" width="500" height="500" />
+            <h3>Somos um time comprometido com os resultados.</h3>
+        </div>
+    </section>
+    <!--PARCEIROS-->
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">Parceiros</h3>
+            <!--PARCEIROS-1-->
+            <div class="container ">
+                <div class="row">
+                    <!--INICIO-DA-ROW-->
+                    <div class="col-lg-4">
+                        <p>A passagem padrão de Lorem Ipsum, usada desde os anos 1500 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed the eiusmod tempor incidid ut labore et dolore magna aliqua. Isso significa que, no mínimo, veniam, exigiu
+                            o exercício da nossa vontade, não é por isso que é excomodado por todo o mundo. velit esse cillum dolore eu fugi nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp qui officia deserunt mollit anim
+                            id est laborum. "</p>
+                        <img src="img/site2.jpeg" width="100%" />
+                    </div>
+                    <div class="col-lg-4">
+                        <p>A passagem padrão de Lorem Ipsum, usada desde os anos 1500 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed the eiusmod tempor incidid ut labore et dolore magna aliqua. Isso significa que, no mínimo, veniam, exigiu
+                            o exercício da nossa vontade, não é por isso que é excomodado por todo o mundo. velit esse cillum dolore eu fugi nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp qui officia deserunt mollit anim
+                            id est laborum. "</p>
+                        <img src="img/site1.jpeg" width="100%" />
+                    </div>
+                    <div class="col-lg-4">
+                        <p>A passagem padrão de Lorem Ipsum, usada desde os anos 1500 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed the eiusmod tempor incidid ut labore et dolore magna aliqua. Isso significa que, no mínimo, veniam, exigiu
+                            o exercício da nossa vontade, não é por isso que é excomodado por todo o mundo. velit esse cillum dolore eu fugi nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp qui officia deserunt mollit anim
+                            id est laborum. "</p>
+                        <img src="img/site3.jpeg" width="100%" />
+                    </div>
+                    <!--FIM-DA-ROW-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SEVICOS-->
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+            <div class="row">
+                <!--INICIO-DA-ROW-->
+                <div class="col-lg-6">
+                    <img src="img/app1.jpeg" width="600px" heigth="600px" />
+                    <h3>Smartphones</h3>
+                    <p>A passagem padrão de Lorem Ipsum, usada desde os anos 1500.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/app2.jpg" width="600px" heigth="600px" />
+                    <h3>Notebooks e tablets</h3>
+                    <p>A passagem padrão de Lorem Ipsum, usada desde os anos 1500.</p>
+                </div>
+            </div>
+            <!--FIM DA ROW-->
+        </div>
+    </section>
+    <!--RODAPÉ-->
+
+    <!--RODAPE-->
+    <footer class="container-fluid text-center bg-footer margin">
+        <p> &copy; Desenvolvido por Allyon de Oliveira - Direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
