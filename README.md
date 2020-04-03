@@ -1,2 +1,2 @@
 # projeto-curso
-Introdução GitHub e comandos.
+Aprendendo com Bootstrap
